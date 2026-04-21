@@ -102,6 +102,80 @@ nav ul {
     flex-wrap: wrap; 
 }
 
-li {
-    line-height: 55px;
+
+
+.kerdes {
+    background: rgb(189, 9, 9);
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgb(197, 9, 9);
+    text-align: center;
+  }
+  
+  .kerdes p {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  
+    .valaszok label span{
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: var(--light);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+    .valaszok span:hover {
+    border: 1px solid black;
+  }
+
+
+    #result {
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+    
+.valaszok input[type="radio"] {
+    display: none;
 }
+
+
+.valaszok input[type="radio"]:checked + span {
+    background: black;
+    color: white;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    text-align: center;   
+    display: block;
+    margin: 20px auto;
+
+  }
+  
+  .button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
